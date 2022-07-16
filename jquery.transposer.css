@@ -8,15 +8,22 @@
  *
  * Date: Sat Jun 26 21:27:00 2010 -0600
  */
-span.c { 
-  font-weight: bold; 
-  color: #2159D6;
+  
+pre {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+span.c {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color:#0042A5;
 }
 
 .transpose-keys {
 	margin: 10px 0;
-	overflow: auto;
-	font: normal 11px sans-serif;
+	overflow: hidden;
+	font: 10px sans-serif;
 }
 .transpose-keys a { 
 	display: block;
