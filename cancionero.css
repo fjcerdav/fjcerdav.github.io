@@ -6,9 +6,9 @@ pre {
     font-variant: normal;
     vertical-align: baseline;
     text-decoration: none;
+    max-height: 100%;
+    max-width: 100%;
     line-height : 14px;
-	height: 100%;
-	width: 100%;
 }
 
 span.c {
