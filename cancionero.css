@@ -21,9 +21,10 @@ span.c {
 }
 
 .transpose-keys {
-	margin: 13px 0;
+	margin: 10px 0;
 	overflow: hidden;
-	font: 10px sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
 }
 .transpose-keys a { 
 	display: block;
