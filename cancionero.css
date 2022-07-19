@@ -1,25 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;1,600;&display=swap');
   
 
 h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
     font-variant: normal;
-    font-weight:700;
+    font-weight:0,700;
     color: #2159D6;
     vertical-align: baseline;
     text-decoration: none;
 }
 
 .texto {
-    font-family: 'Montserrat', cursive;
+    font-family: 'Montserrat', sans-serif;
     font-size: 12px;
-    font-weight:700;
+    font-weight:1,600;
 }
 
 pre {
     font-family: 'Montserrat', sans-serif;
-    font-size: 13px;
+    font-weight:0,500;
     font-variant: normal;
     vertical-align: baseline;
     text-decoration: none;
@@ -68,5 +67,12 @@ audio{
     margin-right: auto;
     object-fit: contain;
     }
-    
+@media only screen and (max-width: 479px){pre{font-size: 13.0pt;}}
+@media only screen and (min-width: 480px) and (max-width: 767px){pre{font-size: 14.0pt;}}
+@media only screen and (min-width: 768px) and (max-width: 1279px){pre{font-size: 15.0pt;}}
+@media only screen and (min-width: 1280px){pre{font-size: 15.0pt;}}
+@media only screen and (max-width: 479px){h1{font-size: 16.0pt;}}
+@media only screen and (min-width: 480px) and (max-width: 767px){h1{font-size: 18.0pt;}}
+@media only screen and (min-width: 768px) and (max-width: 1279px){h1{font-size: 20.0pt;}}
+@media only screen and (min-width: 1280px){h1{font-size: 20.0pt;}}    
 }
