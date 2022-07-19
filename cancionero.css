@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
   
 
-h1 {
+.h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-variant: normal;
@@ -9,6 +9,12 @@ h1 {
     color: #FFF;
     vertical-align: baseline;
     text-decoration: none;
+}
+
+.h2 {
+    font-family: 'Montserrat', cursive;
+    font-size: 12px;
+    font-weight:700;
 }
 
 pre {
