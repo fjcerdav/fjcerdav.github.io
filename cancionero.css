@@ -4,24 +4,29 @@
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-variant: normal;
+	font-size: 18px;
     font-weight:0,700;
     color: #1255CC;
     vertical-align: baseline;
     text-decoration: none;
+	line-height: 20px;
 }
 
 .texto {
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     font-weight:1,600;
+    line-height: 20px;
 }
 
 pre {
     font-family: 'Montserrat', sans-serif;
-    font-weight:0,500;
+	font-size: 13px;
+    font-weight: 0,500;
     font-variant: normal;
     vertical-align: baseline;
     text-decoration: none;
+    line-height: 14px;
 }
 
 span.c {
@@ -64,10 +69,5 @@ audio{
     margin-right: auto;
     object-fit: contain;
     }
-@media only screen and (max-width: 767px){pre{font-size: 13.0pt;    line-height : 14px;}}
-@media only screen and (min-width: 768px) and (max-width: 1280px){pre{font-size: 14.0pt;    line-height : 16px;}}
-@media only screen and (min-width: 1280px){pre{font-size: 15.0pt;    line-height : 17px;}}
-@media only screen and (max-width: 767px){h1{font-size: 16.0pt;}}
-@media only screen and (min-width: 768px) and (max-width: 1279px){h1{font-size: 18.0pt;}}
-@media only screen and (min-width: 1280px){h1{font-size: 20.0pt;}}    
+  
 }
