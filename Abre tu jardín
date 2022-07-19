@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" type="text/css" 
+href="https://fjcerdav.github.io/cancionero.css" />
+</head>
+
+<body>
+<pre id="letra" data-key="MI">
+<b>MI               FA#m SOL#m              FA#m
+Abre tu jardín,      traigo una buena noticia;
+MI                    FA#m SOL#m        FA#m
+Novedad sin fin,      corramos a recibirla,
+LA        SI7     MI
+¡ven, levántate!</b>
+
+MI7              LA
+Abre tu jardín,
+MI                                 LA 
+pon flores en tu ventana,
+MI                      LA
+Canta una canción,
+MI                                LA 
+hoy día se murió la muerte;
+FA#m       SOL#m   FA#m      SI7
+¡es día de fiesta,     es día de vida!
+
+MI                     LA
+No te quedes hoy
+MI                                   LA
+encerrado en tus costumbres,
+MI                    LA
+como en el sillón
+MI                               LA
+de las antiguas verdades;
+FA#m     SOL#m FA#m    SI7
+vive la palabra, luego vivirás.
+
+MI                  LA
+Vamos por ahí
+MI                               LA
+cantando la buena nueva:
+MI                 LA
+ama de verdad
+MI                                 LA
+como a ti te están amando; 
+FA#m       SOL#m   FA#m      SI7
+nace un nuevo día, ¡ven a renacer!.</b>
+</pre>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script src="https://fjcerdav.github.io/cancionero.js"></script>
+
+<script type="text/javascript">
+$(function() {
+		$(".btn").show();
+    	$("#letra").transpose();
+		
+    });
+  </script>
+
+  </body>
+  </html>
