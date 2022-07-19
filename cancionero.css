@@ -64,12 +64,10 @@ audio{
     margin-right: auto;
     object-fit: contain;
     }
-@media only screen and (max-width: 479px){pre{font-size: 13.0pt;    line-height : 14px;}}
-@media only screen and (min-width: 480px) and (max-width: 767px){pre{font-size: 14.0pt;    line-height : 15px;}}
-@media only screen and (min-width: 768px) and (max-width: 1279px){pre{font-size: 15.0pt;    line-height : 16px;}}
-@media only screen and (min-width: 1280px){pre{font-size: 15.0pt;    line-height : 16px;}}
-@media only screen and (max-width: 479px){h1{font-size: 16.0pt;}}
-@media only screen and (min-width: 480px) and (max-width: 767px){h1{font-size: 18.0pt;}}
-@media only screen and (min-width: 768px) and (max-width: 1279px){h1{font-size: 20.0pt;}}
+@media only screen and (max-width: 767px){pre{font-size: 13.0pt;    line-height : 14px;}}
+@media only screen and (min-width: 768px) and (max-width: 1280px){pre{font-size: 14.0pt;    line-height : 16px;}}
+@media only screen and (min-width: 1280px){pre{font-size: 15.0pt;    line-height : 17px;}}
+@media only screen and (max-width: 767px){h1{font-size: 16.0pt;}}
+@media only screen and (min-width: 768px) and (max-width: 1279px){h1{font-size: 18.0pt;}}
 @media only screen and (min-width: 1280px){h1{font-size: 20.0pt;}}    
 }
