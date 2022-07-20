@@ -34,6 +34,10 @@ pre {
     color:#2159D6;
 }
 
+span.c {
+    color:#153793;
+}
+
 .transpose-keys {
 	margin: 10px 0;
 	overflow: hidden;
