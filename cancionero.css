@@ -3,8 +3,8 @@
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-variant: normal;
-	font-size: 18px;
-    font-weight:0,700;
+	font-size: 20px;
+    font-weight:0, 700;
     color: #1255CC;
     vertical-align: baseline;
     text-decoration: none;
@@ -13,8 +13,8 @@ h1 {
 
 .texto {
     font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
-    font-weight:1,600;
+    font-size: 13px;
+    font-weight:1, 600;
     line-height: 20px;
 }
 
