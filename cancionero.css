@@ -81,9 +81,7 @@ audio{
 }
 
 .video {
-	height: 0;
 	overflow: hidden;
-	padding-bottom: 56.25%;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	position: relative;
