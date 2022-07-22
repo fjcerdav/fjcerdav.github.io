@@ -30,6 +30,13 @@ nav ul li a {
   text-decoration: none;
 }
 
+.menu-list {
+	width: 20px;
+	height: 4px;
+	background-color: #FFFFFF;
+	margin-bottom: 4px;
+}
+
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-variant: normal;
