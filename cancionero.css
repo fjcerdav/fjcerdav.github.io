@@ -21,6 +21,7 @@ nav ul li {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   color: #FFFFFF;
+  flex-direction: row;
 }
 
 nav ul li a {
@@ -30,6 +31,7 @@ nav ul li a {
   text-decoration: none;
 }
 
+.menu {display: none;}
 .menu-list {
 	width: 20px;
 	height: 4px;
@@ -40,6 +42,20 @@ nav ul li a {
 .icono {
 	height: 20px;
 }
+
+@media all and (max-width: 480 px) {
+	.menu {
+		display: block;
+		position: absolute;
+		left: 10px;
+		top: 10px;
+			}
+} 
+	{nav ul li {
+		flex-direction: column;
+		}
+}
+
 
 h1 {
     font-family: 'Montserrat', sans-serif;
