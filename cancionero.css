@@ -11,7 +11,7 @@ nav {
 	float: left;
 }
 
-nav {
+nav ul {
 	list-style: none;
   	overflow: hidden; 
 }
