@@ -9,9 +9,13 @@ header {
 
 nav {
 	float: left;
+}
+
+nav {
 	list-style: none;
   	overflow: hidden; 
 }
+
 nav ul li {
   float: left;
   font-family: 'Montserrat', sans-serif;
