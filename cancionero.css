@@ -85,12 +85,11 @@ audio{
 	overflow: hidden;
 	padding-bottom: 56.25%;
 	padding-top: 30px;
+	padding-bottom: 30px;
 	position: relative;
 	}
 .video iframe, .video object, .video embed {
 	height: 100%;
-	left: 0;
-	position: absolute;
-	top: 0;
+	position: static;
 	width: 100%;
 	}
