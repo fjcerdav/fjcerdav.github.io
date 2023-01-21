@@ -11895,7 +11895,7 @@ pre {
     font-variant: normal;
     vertical-align: baseline;
     line-height: 105%;
-    padding-left: .2rem;
+    padding-left: .3rem;
     padding-right: .2rem;
     padding-top: 1.5rem;
     padding-bottom: 3rem;
@@ -11994,8 +11994,10 @@ span.c {
 }
 
 audio{
-    width: 100%;
+    width: 98%;
     height: 32px;
+				padding-left:1%;
+				padding-right:1%;
     object-fit: contain;
     }
   
