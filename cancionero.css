@@ -11847,6 +11847,17 @@ textarea.form-control-lg {
 
 
 
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+  --bs-gutter-x: 0.5rem;
+}
+
+
 .navbar {
   --bs-navbar-padding-y: 0;
   --bs-navbar-brand-font-size: 24px;
