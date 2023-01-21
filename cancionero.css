@@ -12013,4 +12013,5 @@ audio{
 
 
 @media (max-width: 991.98px){html {font-size: 3.9vw;}}
-@media (min-width: 992px){html {font-size: 1.3vw}}
+@media (min-width: 992px) and (max-width: 1199.98px){html {font-size: 1.3vw}}
+@media (min-width: 1200px){html {font-size: 12px}}
