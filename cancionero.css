@@ -11925,9 +11925,9 @@ pre {
 
 .titulo {
 	padding-top: 1rem;
-	padding-bottom: .5rem;
-	padding-left: .5rem;
-	padding-right: .5rem;
+	padding-bottom: 1rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
 }
 
 h1 {
@@ -11935,9 +11935,12 @@ h1 {
     font-variant: normal;
     font-size: 1.5rem;
     font-weight: 700;
+				text-align: center;
     color: #1255CC;
     vertical-align: baseline;
     line-height: 100%;
+				padding-left: 0.5rem;
+				padding-right: 0,5rem;
 }
 
 h2 {
