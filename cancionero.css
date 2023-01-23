@@ -11845,7 +11845,9 @@ textarea.form-control-lg {
 
 
 
-
+.d-flex {
+	flex-wrap: wrap !important;
+}
 
 .container,
 .container-fluid,
@@ -11997,10 +11999,10 @@ span.c {
 }
 
 audio{
-    width: 98%;
+	min-width:200px;
     height: 32px;
-				padding-left:1%;
-				padding-right:1%;
+		padding-left:0.5rem;
+		padding-right:0.5rem;
     object-fit: contain;
     }
   
@@ -12019,4 +12021,4 @@ audio{
 
 @media (max-width: 991.98px){html {font-size: 4vw;}}
 @media (min-width: 992px) and (max-width: 1199.98px){html {font-size: 1.3vw}}
-@media (min-width: 1200px){html {font-size: 12px}}
+@media (min-width: 1200px){html {font-size: 12px+1.3vw}}
