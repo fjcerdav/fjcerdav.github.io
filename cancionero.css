@@ -12000,7 +12000,8 @@ span.c {
 }
 
 audio{
-	min-width:200px;
+    width:100%;
+    min-width:300px;
     height: 32px;
 		padding-left:0.5rem;
 		padding-right:0.5rem;
