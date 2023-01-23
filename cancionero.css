@@ -11846,7 +11846,8 @@ textarea.form-control-lg {
 
 
 .d-flex {
-	flex-wrap: wrap !important;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .container,
