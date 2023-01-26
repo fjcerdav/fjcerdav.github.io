@@ -11975,16 +11975,16 @@ span.c {
 }
 
 .transpose-keys {
-	display: inline-flex;
-	margin: 0.625rem;
+	margin: 0.625rem 0;
 	text-align: center;
-	overflow-wrap: normal;
+	overflow: hidden;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 0.8rem;
+	font-size: 0.6rem;
 	font-weight:0,500;
 }
 .transpose-keys a { 
-	display: inline;
+	display: block;
+	float:left;
 	width: 2.25rem;
 	text-align: center;
 	margin: 0 .25em .25em 0;
