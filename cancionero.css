@@ -11977,7 +11977,7 @@ span.c {
 .transpose-keys {
 	margin: 0.625rem 0.625rem;
 	text-align: center;
-	overflow: hidden;
+	overflow-wrap: normal;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 0.8rem;
 	font-weight:0,500;
