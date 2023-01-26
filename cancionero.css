@@ -11975,6 +11975,7 @@ span.c {
 }
 
 .transpose-keys {
+	width: 100%;
 	margin: 0.625rem 0.625rem;
 	text-align: center;
 	overflow-wrap: normal;
