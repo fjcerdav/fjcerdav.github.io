@@ -11982,8 +11982,7 @@ span.c {
 	font-weight:0,500;
 }
 .transpose-keys a { 
-	display: inline-block;
-	float: left;
+	display: inline;
 	width: 2.25rem;
 	text-align: center;
 	margin: 0 .25em .25em 0;
