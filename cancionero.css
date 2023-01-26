@@ -11983,6 +11983,7 @@ span.c {
 }
 .transpose-keys a { 
 	display: block;
+	float: none;
 	width: 2.25rem;
 	text-align: center;
 	margin: 0 .25em .25em 0;
