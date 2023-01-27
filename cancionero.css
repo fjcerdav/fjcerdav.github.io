@@ -12021,6 +12021,7 @@ audio{
 }
 
 
-@media (max-width: 991.98px){html {font-size: 4vw;}}
+@media (max-width: 767.98px){html {font-size: 4vw;}}
+@media (min-width: 768px) and (max-width: 991.98px){html {font-size: 3vw}}
 @media (min-width: 992px) and (max-width: 1199.98px){html {font-size: 1.3vw}}
 @media (min-width: 1200px){html {font-size: 12px+1.3vw}}
