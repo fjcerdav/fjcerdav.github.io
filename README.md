@@ -1,6 +1,6 @@
 # cancionerocatolico
 
-https://www.cancioneroagustino.cl
+https://www.cancionerocatolico.cl
 
 Este es un cancionero con un script para transcribir los acordes, derivado del plugin JQuery Transposer de JeseeGalvin con algunas adaptaciones:
 
