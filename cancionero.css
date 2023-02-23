@@ -69,11 +69,11 @@
 
 
 [data-bs-theme=light] {
-  --bs-primary: #6610f2;
+  --bs-primary: #6610f2 !important;
 }
 
 [data-bs-theme=dark] {
-  --bs-primary: #6610f2;
+  --bs-primary: #6610f2 !important;
 }
 
 
@@ -106,7 +106,7 @@
 }
 
 bg-primary {
-  background-color: #6610f2;
+  background-color: #6610f2 !important;
 }
 
 
