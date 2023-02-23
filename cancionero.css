@@ -99,6 +99,11 @@
     padding: 0 !important;
 }
 
+bg-primary {
+  background-color: #6610f2;
+}
+
+
 
 .btn-primary {
   --bs-btn-bg: #6610f2;
@@ -107,7 +112,6 @@
   --bs-btn-hover-border-color: #6610f2;
   --bs-btn-disabled-bg: #6610f2;
   --bs-btn-disabled-border-color: #6610f2;
-  background-color: #6610f2;
 }
 
 .btn-outline-primary {
