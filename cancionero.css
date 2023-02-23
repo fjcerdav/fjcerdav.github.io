@@ -101,20 +101,20 @@
 
 
 .btn-primary {
-  --bs-btn-bg: #1155cc;
-  --bs-btn-border-color: #1155cc;
-  --bs-btn-hover-bg: #1155cc;
-  --bs-btn-hover-border-color: #1155cc;
-  --bs-btn-disabled-bg: #1155cc;
-  --bs-btn-disabled-border-color: #1155cc;
-  background-color: #1155CC;
+  --bs-btn-bg: #6610f2;
+  --bs-btn-border-color: #6610f2;
+  --bs-btn-hover-bg: #6610f2;
+  --bs-btn-hover-border-color: #6610f2;
+  --bs-btn-disabled-bg: #6610f2;
+  --bs-btn-disabled-border-color: #6610f2;
+  background-color: #6610f2;
 }
 
 .btn-outline-primary {
-  --bs-btn-color: #1155cc;
-  --bs-btn-border-color: #5DADE2;
-  --bs-btn-hover-bg: #1155cc;
-  --bs-btn-hover-border-color: #1155cc;
+  --bs-btn-color: #6610f2;
+  --bs-btn-border-color: #6610f2;
+  --bs-btn-hover-bg: #6610f2;
+  --bs-btn-hover-border-color: #6610f2;
   font-weight: 600;
 }
 
@@ -166,7 +166,7 @@ h1 {
     font-variant: normal;
     font-size: 1.5rem;
     font-weight: 700;
-    color: #1255CC;
+    color: #6610f2;
     vertical-align: baseline;
     line-height: 100%;
     padding-left: 0.5rem;
@@ -178,7 +178,7 @@ h2 {
     font-variant: normal;
     font-size: 1.2rem;
     font-weight: 700;
-    color: #1255CC;
+    color: #6610f2;
     vertical-align: baseline;
     line-height: 100%;
 }
@@ -193,12 +193,12 @@ h2 {
 
 .subtitulo {
     font-size: 1.1rem;
-    color:#2159D6;
+    color:#6610f2;
 }
 
 
 span.c {
-    color:#000055;
+    color:#340055;
 }
 
 .transpose-keys {
