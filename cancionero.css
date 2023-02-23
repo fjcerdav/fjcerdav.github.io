@@ -68,7 +68,13 @@
 
 
 
+[data-bs-theme=light] {
+  --bs-primary: #6610f2;
+}
 
+[data-bs-theme=dark] {
+  --bs-primary: #6610f2;
+}
 
 
 
