@@ -109,7 +109,7 @@ bg-primary {
 }
 
 .btn-outline-primary {
-  --bs-btn-color: #6610f2;
+  --bs-btn-color: #1e0448;
   --bs-btn-border-color: #6610f2;
   --bs-btn-hover-bg: #6610f2;
   --bs-btn-hover-border-color: #6610f2;
@@ -196,7 +196,7 @@ h2 {
 
 
 span.c {
-    color:#340055;
+    color:#1e0448;
 }
 
 .transpose-keys {
