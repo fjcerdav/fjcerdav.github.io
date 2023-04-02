@@ -104,6 +104,8 @@ bg-primary {
   --bs-btn-border-color: #6610f2;
   --bs-btn-hover-bg: #6610f2;
   --bs-btn-hover-border-color: #6610f2;
+  --bs-btn-active-bg:#1e0448;
+  --bs-btn-active-border-color:#1e0448;
   --bs-btn-disabled-bg: #6610f2;
   --bs-btn-disabled-border-color: #6610f2;
 }
@@ -113,6 +115,8 @@ bg-primary {
   --bs-btn-border-color: #6610f2;
   --bs-btn-hover-bg: #6610f2;
   --bs-btn-hover-border-color: #6610f2;
+  --bs-btn-active-bg:#6610f2;
+  --bs-btn-active-border-color:#6610f2;
   font-weight: 600;
 }
 
@@ -221,7 +225,7 @@ span.c {
 	outline: none;
 }
 .transpose-keys a.selected { 
-  background: #2159D6; 
+  background: #6610f2; 
   color: #FFF;
 }
 
