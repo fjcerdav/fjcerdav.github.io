@@ -104,6 +104,8 @@ bg-primary {
   --bs-btn-border-color: #FF4040;
   --bs-btn-hover-bg: #FF4040;
   --bs-btn-hover-border-color: #FF4040;
+  --bs-btn-active-bg:#D20A11;
+  --bs-btn-active-border-color:#D20A11;
   --bs-btn-disabled-bg: #FF4040;
   --bs-btn-disabled-border-color: #FF4040;
 }
@@ -113,6 +115,8 @@ bg-primary {
   --bs-btn-border-color: #D20A11;
   --bs-btn-hover-bg: #D20A11;
   --bs-btn-hover-border-color: #D20A11;
+  --bs-btn-active-bg:#FF4040;
+  --bs-btn-active-border-color:#FF4040;
   font-weight: 600;
 }
 
