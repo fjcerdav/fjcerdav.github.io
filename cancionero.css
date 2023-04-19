@@ -108,6 +108,7 @@
   --bs-btn-disabled-bg: #1155cc;
   --bs-btn-disabled-border-color: #1155cc;
   background-color: #1155CC;
+  font-weight: 700;
 }
 
 .btn-outline-primary {
