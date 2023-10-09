@@ -161,20 +161,7 @@ console.log(keyValue);
         return o.join("");
     }
     
-    
-    var isChordLine = function (input) {
-        var tokens = input.replace(/\s+/, " ").split(" ");
-console.log(tokens);
-        // Try to find tokens that aren't chords
-        // if we find one we know that this line is not a 'chord' line.
-        for (var i = 0; i < tokens.length; i++) {
-            if (!$.trim(tokens[i]).length == 0 && !tokens[i].match(opts.chordRegex)){
-				//console.log('false');
-			return false;}
-        }
-		//console.log('true');
-        return true;
-    };
+
     
     var wrapChords = function (input) {
         return input.replace(opts.chordReplaceRegex, "<span class='c'>$1</span>");
