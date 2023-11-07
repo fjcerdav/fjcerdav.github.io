@@ -192,6 +192,14 @@ h2 {
     line-height: 100%;
 }
 
+
+.nuevotitulo {
+    font-family: 'Montserrat', sans-serif;
+    font-variant: normal;
+    font-size: 1.3rem;
+    color:#2159D6;
+}
+
 .subtitulo {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.1rem;
