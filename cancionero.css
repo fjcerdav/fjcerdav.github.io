@@ -261,5 +261,4 @@ audio{
 
 @media (max-width: 767.98px){html {font-size: 4vw;}}
 @media (min-width: 768px) and (max-width: 1079.98px){html {font-size: 1.5vw}}
-@media (min-width: 1080px) and (max-width: 1383.98px){html {font-size: 1.3vw}}
-@media (min-width: 1384px){html {font-size: 18px}}
+@media (min-width: 1080px){html {font-size: 14px}}
