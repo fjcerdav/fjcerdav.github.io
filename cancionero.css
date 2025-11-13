@@ -1,0 +1,499 @@
+@font-face {
+	font-family: 'Iosevka Term Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: normal;
+	src: url("https://www.cancionerocatolico.cl/fonts/iosevka-term-bold.woff2") format('woff2');
+}
+
+
+@font-face {
+	font-family: 'Iosevka Term Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	src: url("https://www.cancionerocatolico.cl/fonts/iosevka-term-medium.woff2") format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: normal;
+	src: url("https://www.cancionerocatolico.cl/fonts/iosevka-term-regular.woff2") format('woff2');
+}
+
+@font-face {
+	font-family: 'Drafting';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: normal;
+	src: url("https://www.cancionerocatolico.cl/fonts/DraftinMmono-Bold.woff2") format('woff2');
+}
+
+@font-face {
+	font-family: 'Drafting';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: italic;
+	src: url("https://www.cancionerocatolico.cl/fonts/DraftinMmono-BoldItalic.woff2") format('woff2');
+}
+
+@font-face {
+	font-family: 'Drafting';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	src: url("https://www.cancionerocatolico.cl/fonts/DraftingMono-Medium.woff2") format('woff2');
+}
+
+@font-face {
+	font-family: 'Drafting';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: italic;
+	src: url("https://www.cancionerocatolico.cl/fonts/DraftingMono-MediumItalic.woff2") format('woff2');
+}
+
+@font-face {
+	font-family: 'Drafting';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: normal;
+	src: url("https://www.cancionerocatolico.cl/fonts/DraftingMono-Regular.woff2") format('woff2');
+}
+
+@font-face {
+	font-family: 'Drafting';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: italic;
+	src: url("https://www.cancionerocatolico.cl/fonts/DraftingMono-Italic.woff2") format('woff2');
+}
+
+@font-face {
+	font-family: 'Drafting';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	src: url("https://www.cancionerocatolico.cl/fonts/DraftinMmono-Light.woff2") format('woff2');
+}
+
+@font-face {
+	font-family: 'Drafting';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: italic;
+	src: url("https://www.cancionerocatolico.cl/fonts/DraftinMmono-LightItalic.woff2") format('woff2');
+}
+
+@font-face {
+	font-family: 'Drafting';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: normal;
+	src: url("https://www.cancionerocatolico.cl/fonts/DraftinMmono-ExtraLight.woff2") format('woff2');
+}
+
+@font-face {
+	font-family: 'Drafting';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: italic;
+	src: url("https://www.cancionerocatolico.cl/fonts/DraftinMmono-ExtraLightItalic.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url("https://www.cancionerocatolico.cl/fonts/Montserrat-SemiBoldItalic.woff2") format('woff2'),
+        url("https://www.cancionerocatolico.cl/fonts/Montserrat-SemiBoldItalic.woff") format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url("https://www.cancionerocatolico.cl/fonts/Montserrat-Medium.woff2") format('woff2'),
+        url("https://www.cancionerocatolico.cl/fonts/Montserrat-Medium.woff") format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url("https://www.cancionerocatolico.cl/fonts/Montserrat-Bold.woff2") format('woff2'),
+        url("https://www.cancionerocatolico.cl/fonts/Montserrat-Bold.woff") format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+:root {
+  --bs-primary: #0A2846;
+  --bs-primary-rgb: 10, 40, 70; /* valores RGB equivalentes */
+}
+
+
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+  --bs-gutter-x: 0.5rem;
+}
+
+
+.navbar {
+  --bs-navbar-padding-y: 0,25rem;
+  --bs-navbar-brand-font-size: 24px;
+}
+
+
+.text-bg-primary{
+	color:#fff!important;
+	background-color: #00979f!important
+}
+
+
+.btn-primary {
+  --bs-btn-bg: #0E7261;
+  --bs-btn-border-color: #14477A;
+  --bs-btn-hover-bg: #14477A;
+  --bs-btn-hover-border-color: #14477A;
+  --bs-btn-disabled-bg: #14477A;
+  --bs-btn-disabled-border-color: #14477A;
+  background-color: #14477A;
+  font-weight: 700;
+}
+
+.btn-outline-primary {
+  --bs-btn-color: #000;
+  --bs-btn-bg: #f8f9f9;
+  --bs-btn-border-color: #49C8DC;
+  --bs-btn-hover-bg: #49C8DC;
+  --bs-btn-hover-border-color: #49C8DC;
+  font-weight: 600;
+}
+
+.btn-outline-info {
+  --bs-btn-color: #009F98;
+  --bs-btn-bg: #ffffff;
+  --bs-btn-border-color: #009F98;
+  --bs-btn-hover-color: #009F98;
+  --bs-btn-hover-bg: #ffffff;
+  --bs-btn-hover-border-color: #009F98;
+  --bs-btn-active-color:#009F98;--bs-btn-active-bg:#ffffff;--bs-btn-active-border-color:#009F98;--bs-btn-active-shadow:none;
+}
+
+
+.btn-acordes 
+{
+   font-weight: 500;
+  --bs-btn-color: #333;
+  --bs-btn-border-color: transparent;
+  --bs-btn-bg: #EEE;
+  --bs-btn-hover-bg: #EEE;
+  --bs-btn-hover-border-color: transparent;
+  --bs-btn-active-color: #333;
+  --bs-btn-active-bg: #EEE;
+  --bs-btn-active-border-color: transparent;
+}
+
+
+.navigation-buttons {
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+    
+.navigation-buttons button {
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+
+
+pre {
+    font-family: 'Iosevka Term Web', monospace;
+    font-weight: normal;
+    font-variant: normal;
+    vertical-align: baseline;
+    line-height: 105%;
+    padding-left: .5rem;
+    padding-right: .2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+    overflow: hidden;
+    font-size:1rem;
+}
+
+
+
+.portada {
+  color: #FFF;
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.7); /* para mejorar la visibilidad */
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-image: url('../images/header.jpg');
+  background-position: center center;  
+  background-size: cover;
+
+}
+
+.seccion {
+	color: #009F98;
+	text-align: center;
+	font-size: 2rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.titulo {
+	color: #009F98;
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	text-align: center;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  line-height: 100%;
+  font-variant: normal;
+  vertical-align: baseline;
+}
+
+h1 {
+    font-size: 1.5rem;;
+    padding-left: 0.5rem;
+    padding-right: 0,5rem;
+}
+
+h2 {font-size: 1.2rem;}
+
+.texto {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+
+.nuevotitulo {
+    font-family: 'Montserrat', sans-serif;
+    font-variant: normal;
+    font-size: 1.2rem;
+    color:#2159D6;
+}
+
+.subtitulo {
+	color: #C21712;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    color:#2159D6;
+}
+
+
+
+.programa-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+
+#programa-lista {
+      padding-left: 2vw;
+    }
+
+.cancion-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0;
+    margin-bottom: 0.5rem;
+}
+
+.cancion-item .btn-group {
+    gap: 5px;
+}
+
+.cancion-content h2 {
+      margin-left: 10px;
+}
+
+
+.control-tono {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: 8px;
+  font-weight: bold;
+}
+
+.flecha-tono {
+  cursor: pointer;
+  font-weight: bold;
+  user-select: none;
+  padding: 0 4px;
+  color: #007b7b;
+  transition: transform 0.1s;
+}
+
+.flecha-tono:hover {
+  transform: scale(1.2);
+  color: #009F98;
+}
+
+.tono-actual {
+  min-width: 32px;
+  text-align: center;
+}
+
+
+
+
+
+
+span.c {
+    color:#000055;
+}
+
+.transpose-keys {
+	margin: 0.625rem 0;
+	text-align: center;
+	overflow: hidden;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.6rem;
+	font-weight:0,500;
+}
+.transpose-keys a { 
+	display: block;
+	float:left;
+	width: 2.25rem;
+	text-align: center;
+	margin: 0 .25em .25em 0;
+	color: #333;
+	background: #eee;
+	text-decoration: none;
+	padding: .4em 0;
+	border: solid 1px transparent;
+	outline: none;
+}
+.transpose-keys a.selected { 
+  background: #2159D6; 
+  color: #FFF;
+}
+
+audio{
+    width: 100%;
+    height: 40px;
+		padding-left:0.5rem;
+		padding-right:0.5rem;
+    object-fit: contain;
+    margin-bottom: 1.5rem;
+    }
+  
+.video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  height: auto;
+}
+
+.partpdf {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+
+ @media (max-width: 991px) {
+    .accordion-body a.btn {
+      display: block;
+      width: 100%;
+      margin-bottom: 0.25rem;
+    }
+  }
+
+  /* En escritorio: tres columnas abiertas */
+@media (min-width: 992px) {
+  .accordion {
+    display: flex;
+    gap: 1rem;
+  }
+  .accordion-item {
+    flex: 1;
+    margin: 0 !important;
+    border: none !important;
+    border-right: 1px solid #ddd;
+  }
+  .accordion-item:last-child {
+    border-right: none !important;
+  }
+  .accordion-button {
+    pointer-events: none;
+    background-color: #f8f9fa;
+  }
+  .accordion-collapse {
+    display: block !important;
+    height: auto !important;
+    visibility: visible;
+  }
+  .accordion-body a.btn {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.25rem;
+  }
+}
+
+
+
+
+
+@media (max-width: 575.98px){html {font-size: 4vw;}}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  html { font-size: 2.5vw; }
+  .partpdf { height: 85vh; }
+}
+@media (min-width: 768px) and (max-width: 991.98px){html {font-size: 2vw}}
+@media (min-width: 992px) and (max-width: 1199.98px){html {font-size: 1.4vw}}
+@media (min-width: 1200px){html {font-size: 14px}}
