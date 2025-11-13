@@ -5,4 +5,4 @@ Este es un derivado del plugin JQuery Transposer con algunas adaptaciones:
 - Permite utilizar elementos de fraseo, para por ejemplo usar negritas en el estribillo de la canción. 
 
 
-Ejemplo:   https://fjcerdav.github.com/index.html 
+Ejemplo:   https://fjcerdav.github.io/index.html 
